@@ -50,8 +50,8 @@ function Home() {
           background: "black",
         }}
       >
-        <div className="flex justify-center items-center">
-          <div className="flex-1 mb-4">
+        <div className="flex flex-col md:flex-row md:justify-center md:items-center">
+          <div className=" flex-col md:flex-1 mb-4">
             <Typography variant="h2" color="white">
               Hello,
               <span className="bg-gradient-to-r from-green-500 to-yellow-500 text-green-500 inline-block text-transparent bg-clip-text">
